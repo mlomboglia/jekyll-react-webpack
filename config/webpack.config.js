@@ -2,8 +2,9 @@
 // https://webpack.js.org/concepts/
 const webpack = require("webpack")
 const babelConfig = require("./babel.config")
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin")
 
-module.exports = function(env) {
+module.exports = function (env) {
   const isProduction =
     env === "production" || process.env.NODE_ENV === "production"
 
@@ -24,7 +25,7 @@ module.exports = function(env) {
       // => import * from "utilities/filename"
     },
     resolveLoader: {
-      modules: ["node_modules", "node_modules/static-scripts/node_modules"],
+      modules: ["node_modules"],
       extensions: [".js", ".json"],
       mainFields: ["loader", "main"],
     },
@@ -45,7 +46,8 @@ module.exports = function(env) {
         },
       ],
     },
-    devtool: isProduction ? "nosources-source-map" : "cheap-eval-source-map",
+    devtool: "source-map",
+    mode: isProduction ? 'production' : 'development',
     plugins: [
       new webpack.ProvidePlugin({
         // Automatically make packages available
@@ -54,8 +56,14 @@ module.exports = function(env) {
         // jQuery: "jquery",
         fetch: "imports-loader?this=>global!exports?global.fetch!whatwg-fetch",
       }),
-      new webpack.optimize.UglifyJsPlugin({
-        sourceMap: true,
+      new UglifyJsPlugin({
+        uglifyOptions: {
+          warnings: false,
+          ie8: false,
+          output: {
+            comments: false
+          }
+        }
       }),
     ],
   }

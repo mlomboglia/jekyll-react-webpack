@@ -22,7 +22,6 @@ module.exports = function(env) {
           resolve(build),
         ],
         development: [
-          "-V",
           "--drafts",
           "--unpublished",
           "--future",

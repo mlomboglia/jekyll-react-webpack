@@ -2,8 +2,24 @@
 *.DS_Store
 node_modules/
 
-# Ensure Hugo builds aren't committed to Git
-public/
-site/public/
-dist/
-.tmp/
+# Jekyll
+_site
+.jekyll-metadata
+/.bundle
+/vendor
+
+# Logfiles and tempfiles
+*.log
+/log/*
+!/log/.keep
+/tmp
+
+# Other unneeded files
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
+
