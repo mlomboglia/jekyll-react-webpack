@@ -7,7 +7,6 @@ _site
 .jekyll-metadata
 /.bundle
 /vendor
-/dist
 
 # Logfiles and tempfiles
 *.log
@@ -23,5 +22,5 @@ doc/
 .DS_Store
 .idea
 .secret
-.tmp
+
 
