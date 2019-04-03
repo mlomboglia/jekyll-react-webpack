@@ -81,8 +81,8 @@
   },
   "scripts": {
     "start": "node static-scripts start",
-    "preview": "node run static-scripts preview",
-    "build": "node run static-scripts build",
-    "eject": "node run static-scripts eject"
+    "preview": "node static-scripts preview",
+    "build": "node static-scripts build",
+    "eject": "node static-scripts eject"
   }
 }
