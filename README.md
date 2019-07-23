@@ -1,4 +1,4 @@
-# Jekyll Boilerplate
+# Jekyll Boilerplate with React using Webpack
 
 [![npm version](https://badge.fury.io/js/jekyll-react-webpack.svg)](https://badge.fury.io/js/jekyll-react-webpack)
 

@@ -17,7 +17,7 @@
     "Webpack",
     "React"
   ],
-  "author": "Marcos Lomboglia",
+  "author": "Marcos Lomboglia <marcos.lomboglia@gmail.com> (https://marcoslombog.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mlomboglia/jekyll-react-webpack/issues"
