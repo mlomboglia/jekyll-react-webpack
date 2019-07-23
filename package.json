@@ -1,6 +1,6 @@
 {
   "name": "jekyll-react-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jekyll boilerplate with React using Webpack",
   "repository": {
     "type": "git",
