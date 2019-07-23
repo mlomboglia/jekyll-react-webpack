@@ -1,4 +1,7 @@
 # Jekyll Boilerplate
+
+[![npm version](https://badge.fury.io/js/jekyll-react-webpack.svg)](https://badge.fury.io/js/jekyll-react-webpack)
+
 **A Jekyll boilerplate for building modern websites 🌲**
 
 This is an update of the great boilerplate built by Forestry team incorporating the ideas shared by Alli Zadrozny on his post "Using Webpack and React with Jekyll". All the libraries have been updated, so you can now run Jekyll with React using Webpack as the wrapper.
@@ -68,7 +71,7 @@ npm run build
 ├── .tmp/                  // Temporary directory for development server
 ├── dist/                  // The production build
 ├── site/                  // The Jekyll project, with all content and static files
-|   ├── _data/             // YAML files containing site data 
+|   ├── _data/             // YAML files containing site data
 |   ├── _posts/            // Jekyll's built-in blogging content type
 |   ├── _layouts/          // Your theme layouts
 |   ├── _includes/         // Your theme partials
