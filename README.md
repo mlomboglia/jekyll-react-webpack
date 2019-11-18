@@ -21,10 +21,23 @@ This boilerplate wraps [Jekyll](https://jekyllrb.com) with [Gulp](https://gulpjs
 ## Prerequisites
 To use Gulp, you must have [Node](https://nodejs.org/en/download/) and [NPM](https://www.npmjs.com/get-npm) installed.
 
+If you encounter problems:  Gulp is currently not working with Node 12, downgrade to Node 11
+
+```
+npm install -g n
+sudo n 11.15.0
+```
+
 ## Setup
 
 Once the prerequisites are installed, clone the repository to your local machine, and then run:
 
+```
+(sudo) gem install bundler
+```
+```
+(sudo) bundle install
+```
 ```
 npm install
 ```
