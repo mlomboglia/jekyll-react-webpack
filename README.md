@@ -1,6 +1,8 @@
 # Jekyll Boilerplate with React using Webpack
 
 [![npm version](https://badge.fury.io/js/jekyll-react-webpack.svg)](https://badge.fury.io/js/jekyll-react-webpack)
+[![GitHub issues](https://img.shields.io/github/issues/mlomboglia/jekyll-react-webpack)](https://github.com/mlomboglia/jekyll-react-webpack/issues)
+[![GitHub license](https://img.shields.io/github/license/mlomboglia/jekyll-react-webpack)](https://github.com/mlomboglia/jekyll-react-webpack/blob/master/LICENSE)
 
 **A Jekyll boilerplate for building modern websites 🌲**
 
