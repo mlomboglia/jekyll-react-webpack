@@ -4,6 +4,11 @@
 
 **A Jekyll boilerplate for building modern websites 🌲**
 
+Description available in Medium Post:
+https://medium.com/better-programming/build-your-great-modern-static-website-with-this-boilerplate-using-jekyll-react-and-webpack-cd63e03e4984
+
+---
+
 This is an update of the great boilerplate built by Forestry team incorporating the ideas shared by Alli Zadrozny on his post "Using Webpack and React with Jekyll". All the libraries have been updated, so you can now run Jekyll with React using Webpack as the wrapper.
 
 This boilerplate wraps [Jekyll](https://jekyllrb.com) with [Gulp](https://gulpjs.com/) as your local development build pipeline.
