@@ -58,7 +58,7 @@
     "exports-loader": "^0.6.3",
     "file-loader": "^3.0.1",
     "laggard": "^2.0.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postcss-browser-reporter": "^0.5.0",
     "postcss-cssnext": "^2.7.0",
     "postcss-reporter": "^5.0.0",
